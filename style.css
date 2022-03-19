@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Lora', serif;
-    background-color: rgb(245, 207, 255);
+    background-color: rgb(250, 228, 255);
+    color: rgb(34, 18, 31);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -44,23 +45,80 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 1em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .bottom {
     padding-bottom: 3em;
+    display: flex;
+    gap: 60px;
+}
+
+.cont .subtext {
+    margin-bottom: 1em;
+}
+
+.cont { 
+    flex: 1;
 }
 
 .image {
     background-color: rgb(255, 0, 212);
-    height: 200px;
-    width: 400px;
+    flex: 1;
+    height: 300px;
     text-align: center;
 }
 
 button {
     border-radius: 25px;
-    padding: 10;
+    padding: 5px 20px ;
+    background-color: rgb(59, 39, 54);
+    color: rgb(255, 143, 221);
 }
 
+.bde {
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+
+}
+
+.two {
+    background-color: rgb(245, 207, 255) ;
+}
+
+.titleone {
+    font-size: 27px;
+    font-weight: 600;
+    display: flex; 
+    justify-content: center;
+    padding: 20px;
+  }
+
+.row {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin: 0 3em 2em 3em;
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    border-radius: 5px;
+    background-color: rgb(255, 0, 212);
+    height: 100px;
+    width: 100px;    
+}
+
+.three {
+
+}
