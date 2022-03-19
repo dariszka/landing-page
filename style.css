@@ -135,8 +135,14 @@ button {
 }
 
 .three {
-
+    background-color: rgb(122, 29, 110);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 200px;
+    padding: 30px 60px;
 }
 .titlethree{
-        
+    font-weight: bold;
+    font-size: 20px;
 }
