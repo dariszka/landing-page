@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Lora', serif;
     background-color: rgb(250, 228, 255);
-    color: rgb(34, 18, 31);
+    color: rgb(15, 18, 31);
     margin: 0;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 h1 {
@@ -32,6 +38,10 @@ ul {
 }
 .header{
     font-size: larger;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer {
@@ -39,8 +49,13 @@ ul {
     align-items: center;
     justify-content: space-around;
     padding: 16px;
+    flex: 0;
 }
 
+.a {
+    display: flex;
+    align-self: center;
+}
 .top, 
 .bottom {
     display: flex;
