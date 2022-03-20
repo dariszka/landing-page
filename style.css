@@ -115,7 +115,7 @@ button {
 .row {
     display: flex;
     gap: 3em;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0 3em 2em 3em;
 }
 
@@ -131,6 +131,8 @@ button {
     background-color: rgb(255, 0, 212);
     height: 100px;
     width: 100px;   
+    border-radius: 25px;
+    border: 5px solid black;
 }
 
 .two {
